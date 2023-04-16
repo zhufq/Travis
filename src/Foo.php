@@ -5,6 +5,6 @@ namespace Administrator\Travis;
 class Foo
 {
     public function bar(){
-        echo 2222222;
+        echo 22222221111;
     }
 }
