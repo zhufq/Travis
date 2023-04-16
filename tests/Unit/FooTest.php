@@ -1,9 +1,13 @@
 <?php
 
-namespace tests\Unit;
+//namespace Tests\Unit;
+use Administrator\Travis\Foo;
+
 class FooTest extends \PHPUnit\Framework\TestCase
 {
     public function testFoo(){
-        $this->assertTrue(1);
+        $foo = new Foo();
+        $res = $foo->bar();
+        $this->assertTrue($res);
     }
 }
